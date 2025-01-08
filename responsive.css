@@ -1,0 +1,102 @@
+#My{
+background-color:#c0e6f4;
+width: auto;
+height: 500px;
+}
+.Wel{
+    color: black;
+    margin-top: 30vh;
+    margin-left: 70vh;
+}
+
+#Aboutme{
+    background-color:#96d4e6;
+    width: auto;
+    height: 500px; 
+}
+.AB{
+    
+    margin-top: 25vh;
+    margin-left: 90vh;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    
+
+}
+.Hello{
+    margin-left: 45vh;
+}
+#portfolio{
+    background-color:#55bad6;
+    width: auto;
+    height: 500px;
+
+}
+
+.shi{
+    margin-top: 20vh;
+    margin-left:70vh;
+}
+h3{
+    margin-left: 20vh;
+   
+}
+.Babar{ 
+    margin-left:10vh;
+    font-weight: bold;
+    
+}
+.Azam{
+    font-style: italic;
+}
+.Acha{
+    background-color: azure;
+    border-radius: 2vh;
+    
+    
+}
+
+#contact{
+    background-color: #2991ad;
+    width: auto;
+    height: 500px;
+
+}
+.shaheen{
+    margin-top: 20vh;
+    margin-left:70vh; 
+}
+.text{
+    width: 60vh;
+    margin-left: 60vh;
+    display: block; 
+    margin-bottom: 20px;
+    
+}
+.write{
+    width: 60vh;
+    height: 20vh;
+    margin-left: 60vh; 
+    display: block; 
+    margin-bottom: 20px;
+}
+.small{
+    width: 60vh;
+
+    margin-left: 60vh; 
+    display: block; 
+    margin-bottom: 20px;
+    
+}
+#Fotter{
+background-color: black;
+
+}
+.khan{
+    color: white;
+    margin-left:80vh ;
+}
