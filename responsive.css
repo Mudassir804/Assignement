@@ -1,102 +1,185 @@
-#My{
-background-color:#c0e6f4;
-width: auto;
-height: 500px;
-}
-.Wel{
-    color: black;
-    margin-top: 30vh;
-    margin-left: 70vh;
-}
-
-#Aboutme{
-    background-color:#96d4e6;
-    width: auto;
-    height: 500px; 
-}
-.AB{
-    
-    margin-top: 25vh;
-    margin-left: 90vh;
-
-}
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50px;
-    
-
-}
-.Hello{
-    margin-left: 45vh;
-}
-#portfolio{
-    background-color:#55bad6;
-    width: auto;
-    height: 500px;
-
+.navbar ul{
+    list-style-type: none;
+ background-color: #3d3d3d;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+ position: fixed;
+ width: 100%;
+ 
 }
 
-.shi{
-    margin-top: 20vh;
-    margin-left:70vh;
+
+body, html {
+    margin: 0;
+    padding: 0;
 }
-h3{
-    margin-left: 20vh;
    
-}
-.Babar{ 
-    margin-left:10vh;
-    font-weight: bold;
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+   
     
 }
-.Azam{
-    font-style: italic;
+a:hover {
+    background-color: black;
 }
-.Acha{
-    background-color: azure;
-    border-radius: 2vh;
+
+.navbar li{
+    float: left;
+    margin-left: 150PX;
+    padding: 10px;
     
+}
+* {
+    margin: 0;
+    padding: 0;
     
 }
 
-#contact{
-    background-color: #2991ad;
+/*--------Home--------*/
+
+#Home{
     width: auto;
-    height: 500px;
-
+    height: 300px;
+    background-color: rgb(143, 143, 233);
+    margin-top: 0;
+    margin: 0;
+    text-align: center;
 }
-.shaheen{
-    margin-top: 20vh;
-    margin-left:70vh; 
+#Home p{
+    font-size: 30px;
 }
-.text{
-    width: 60vh;
-    margin-left: 60vh;
-    display: block; 
-    margin-bottom: 20px;
+#Home h1{
+    padding-top: 120px;
+}
+#About{
+    width: auto;
+    height: 300px;
+    background-color: rgb(124, 124, 235);
+    margin-top: 0;
+    margin: 0;
+    text-align: center;
     
 }
-.write{
-    width: 60vh;
-    height: 20vh;
-    margin-left: 60vh; 
-    display: block; 
-    margin-bottom: 20px;
+#About h1{
+    padding-top: 40px;
 }
-.small{
-    width: 60vh;
+#About img{
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+}
+#About p{
+    font-size: 20px;
+    font-family: bold;
+    padding-top: 5px;
+}
 
-    margin-left: 60vh; 
-    display: block; 
-    margin-bottom: 20px;
+/*-----------------------------Portfolio--------*/
+
+ #Portfolio{
+    width: auto;
+    height: 300px;
+    background-color: rgb(104, 104, 230);
+    margin-top: 0;
+    margin: 0;
+    
+    
+ }
+ #Portfolio h1{
+    padding-top: 60px;
+    text-align: center;
     
 }
-#Fotter{
-background-color: black;
+.Pro1{
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 5px;
+    float:left;
+    
+}
+.Pro2{
+
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin: 0 auto;
+    
+}
+.Pro3{
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 20px;
+}
+
+
+
+/* -----------Contact-----*/
+#Contact{
+    width: auto;
+    height: 330px;
+    background-color: rgb(70, 70, 226);
+    margin-top: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;  
+}
+.name,.email{
+    width: 300px;
+    height: 30px;
 
 }
-.khan{
-    color: white;
-    margin-left:80vh ;
+.message{
+    width: 300px;
+    height: 60px; 
+ 
+}
+.submit{
+    background-color: black;
+    color: aliceblue;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    color: black;
+    background-color: aliceblue;
+    transform: translateY(-15px); 
+    transition: transform 0.3s;
+}
+
+/* -----------Footer-----*/
+
+#Footer{
+    color: aliceblue;
+    width: auto;
+    height: 100px;
+    background-color: rgb(1, 1, 12);
+    margin-top: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px; 
+}
+.social-media a{
+    list-style-type: none;
+    color: aliceblue ;
 }
